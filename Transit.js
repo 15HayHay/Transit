@@ -3,8 +3,8 @@ const transitEvents= [
     {"date": "12/13/23" ,"name" : "Christmas Party" , "description": "Party"},
     {"date": "idk", "name": "idk we doin something" ,} ,
     {"date": "12/20/23", "name" : "No Transit" , "description" : "Happy Thanksgiving"} ,
-   {"date": "12/27/23" , "name" : "No Transit" , "description" : "Merry Christmas!"} ,
-     {"date" : "1/3/24" , "name" : "No Transit" , "description" : "Happy New Year!"}
+    {"date": "12/27/23" , "name" : "No Transit" , "description" : "Merry Christmas!"} ,
+    {"date" : "1/3/24" , "name" : "No Transit" , "description" : "Happy New Year!"}
 ]
 
 function addEventsToTable () {
@@ -13,7 +13,7 @@ function addEventsToTable () {
         eventList.appendChild(makeEventItem(eventInfo))
     }
     
-    
+
 }
 
 function makeEventItem(eventInfo) {
@@ -38,3 +38,6 @@ function addTextToElement(ele, text) {
 }
 
 addEventsToTable()
+
+
+

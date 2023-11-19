@@ -1,10 +1,11 @@
 
 const transitEvents= [
-    {"date": "12/13/23" ,"name" : "Christmas Party" , "description": "Party"},
-    {"date": "idk", "name": "idk we doin something" ,} ,
-    {"date": "12/20/23", "name" : "No Transit" , "description" : "Happy Thanksgiving"} ,
-    {"date": "12/27/23" , "name" : "No Transit" , "description" : "Merry Christmas!"} ,
-    {"date" : "1/3/24" , "name" : "No Transit" , "description" : "Happy New Year!"}
+    {"start": "idk", "end": "idk" , "title" : "idk we doin something", "description" : "I told you idk" } ,
+    {"start": "11/22/2023", "title" : "No Transit" , "description" : "Happy Thanksgiving"} ,
+    {"start": "12/13/2023 7:30 PM", "end": "12/13/2023 9:30 PM", "title" : "Christmas Party" , "description": "Party"},
+    {"start": "12/20/23" , "title" : "No Transit" , "description" : "Merry Christmas!"} ,
+    {"start": "12/27/23" , "title" : "No Transit" , "description" : "Merry Christmas!"} ,
+    {"start" : "1/3/24" , "title" : "No Transit" , "description" : "Happy New Year!"}
 ]
 
 function addEventsToTable () {
@@ -19,10 +20,14 @@ function addEventsToTable () {
 function makeEventItem(eventInfo) {
     let eventItem =document.createElement("li")
     let eventName =document.createElement("h4")
-    addTextToElement(eventName, eventInfo.name)
+    addTextToElement(eventName, eventInfo.title)
     eventItem.appendChild(eventName)
+    let dateString = `Date: ${eventInfo.start}`
+    if (eventInfo.end) {
+        dateString = dateString + ` - ${eventInfo.end}`
+    }
     let eventDate = document.createElement("p")
-    addTextToElement(eventDate, `Date: ${eventInfo.date}`)
+    addTextToElement(eventDate, dateString)
     eventItem.appendChild(eventDate)
     let eventDesc= document.createElement("p")
     addTextToElement(eventDesc, eventInfo.description)
@@ -37,7 +42,19 @@ function addTextToElement(ele, text) {
     ele.appendChild(textEle)
 }
 
-addEventsToTable()
+document.addEventListener('DOMContentLoaded', function() {
+    addEventsToTable();
+    let calendarEl = document.getElementById('calendar');
+    let calendar = new FullCalendar.Calendar(calendarEl, {
+      initialView: 'dayGridMonth',
+      events: transitEvents.map(
+        (item) => {
+            return {"title": item.title, "start" : new Date(item.start) , "end" : new Date (item.end)}
+        }
+      )
+    });
+    calendar.render();
+  });
 
 
 

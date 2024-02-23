@@ -1,0 +1,19 @@
+---
+services:
+    transit:
+      image: transit
+      restart: unless-stopped
+      networks:
+        - soyberspace
+      labels:
+        - "traefik.enable=true"
+        - "traefik.http.middlewares.mywebserver-redirect-web-secure.redirectscheme.scheme=https"
+        - "traefik.http.routers.transit-rtr.rule=Host(`soyberspace.inetd.cafe`) && PathPrefix(`/transit`)"
+        - "traefik.http.routers.transit-rtr.entrypoints=websecure"
+        - "traefik.http.routers.transit-rtr.tls.certresolver=le"
+        - "traefik.http.routers.transit-rtr.service=transit-svc"
+        - "traefik.http.services.transit-svc.loadbalancer.server.port=80"
+        - "traefik.http.services.transit-svc.loadbalancer.server.scheme=http"
+networks:
+  soyberspace:
+    external: true

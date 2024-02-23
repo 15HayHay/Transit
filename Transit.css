@@ -1,0 +1,40 @@
+html{
+    background-color:cadetblue;
+}  
+
+.subtitle{
+    color:pink
+}
+
+.pic-list{
+    list-style-type: none;
+    padding: none;
+
+}
+
+.picbox{
+    width: 15vw;
+    height: 15vh;
+    border-style:inset;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right:1rem;
+    margin-left:1rem;
+}
+
+.picbox img {
+    width: 100%;
+    height: 100%;
+
+      
+}
+
+.container {
+    display:flex ;
+    justify-content:center ;
+}
+
+.bio {
+    display: flex;
+    justify-content: flex-start ;
+}

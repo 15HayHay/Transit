@@ -1,12 +1,24 @@
+/* $( window ).on( "load", function() {
+    console.log("Am Ready!");
+    $("img").on("mouseenter", function(oneImg){
+        $(oneImg.target).fadeOut();
+        console.log("Hands off!");
+    }); 
+    
+}); */
+
+
 
 const transitEvents= [
     {"start": "idk", "end": "idk" , "title" : "idk we doin something", "description" : "I told you idk" } ,
     {"start": "11/22/2023", "title" : "No Transit" , "description" : "Happy Thanksgiving"} ,
-    {"start": "12/13/2023 7:30 PM", "end": "12/13/2023 9:30 PM", "title" : "Christmas Party" , "description": "Party"},
-    {"start": "12/20/23" , "title" : "No Transit" , "description" : "Merry Christmas!"} ,
+    {"start": "2/14/2024 7:30 PM", "end": "12/13/2023 9:30 PM", "title" : "Colossians: The Supremacy of Christ" , "description": ""},
+    {"start": "2/21/24" , "title" : "Game Night @ the Loft" , "description" : ""} ,
     {"start": "12/27/23" , "title" : "No Transit" , "description" : "Merry Christmas!"} ,
-    {"start" : "1/3/24" , "title" : "No Transit" , "description" : "Happy New Year!"}
+    {"start" : "1/3/24" , "title" : "No Transit" , "description" : "Happy New Year!"},
+    {"start" : "", "title" : "" , "description" : ""}
 ]
+
 
 function addEventsToTable () {
     let eventList=document.getElementById("eventList")
@@ -55,6 +67,5 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     calendar.render();
   });
-
 
 

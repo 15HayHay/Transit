@@ -1,63 +1,79 @@
-html{
-    background-color:cadetblue;
-}  
-
-.subtitle{
-    color:pink
+html {
+  background-color: cadetblue;
 }
 
-.pic-list{
-    list-style-type: none;
-    padding: none;
+.page-styles {
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+#img-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 1rem 0rem 1rem 0rem;
+}
+
+.landing-img {
+  display: flex;
+  max-height: 320px;
+  border: 2px solid;
+  margin: 1rem 0rem 1rem 0rem;
+}
+
+.subtitle {
+  color: pink;
+}
+
+.pic-list {
+  list-style-type: none;
+  padding: none;
 
 }
 
-.picbox{
-    width: 15vw;
-    height: 15vh;
-    border-style:inset;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-right:1rem;
-    margin-left:1rem;
+.picbox {
+  width: 15vw;
+  height: 15vh;
+  border-style: inset;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
 .picbox img {
-    width: 100%;
-    height: 100%;      
+  width: 100%;
+  height: 100%;
 }
 
-.container {
-    display:flex ;
-    justify-content:center;
+.nav-bar {
+  display: flex;
+  justify-content: center;
 }
 
 .bio {
-    display: flex;
-    justify-content: flex-start ;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .media {
-display: flex
-justify-content: center
+  display: flex;
+  justify-content: center;
 }
 
 .eventList {
-    border-style: dotted;
-    
+  border-style: dotted;
 }
 
 
 .google-map {
-     padding-bottom: 50%;
-     position: relative;
+  padding-bottom: 50%;
+  position: relative;
 }
 
 .google-map iframe {
-     height: 100%;
-     width: 100%;
-     left: 0;
-     top: 0;
-     position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
 }
-

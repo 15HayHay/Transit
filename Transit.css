@@ -50,11 +50,6 @@ html {
   justify-content: center;
 }
 
-.bio {
-  display: flex;
-  justify-content: flex-start;
-}
-
 .media {
   display: flex;
   justify-content: center;
@@ -76,4 +71,34 @@ html {
   left: 0;
   top: 0;
   position: absolute;
+}
+
+.bio-header {
+  font-style: bold;
+}
+
+/* transit-bios.html */
+
+#card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.bio-card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border: 1px solid pink
+}
+
+.bio-box {
+  display: flex;
+  justify-content: center;
+}
+
+.bio {
+  display: flex;
+  height: 250px;
+  justify-content: flex-end;
 }

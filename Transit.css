@@ -27,8 +27,9 @@ html {
 .pic-list {
   list-style-type: none;
   padding: none;
-
 }
+
+
 
 .picbox {
   width: 15vw;
@@ -97,8 +98,7 @@ html {
   justify-content: center;
 }
 
-.bio {
+ .biography {
   display: flex;
-  height: 250px;
-  justify-content: flex-end;
-}
+  align-items:  center;
+ }

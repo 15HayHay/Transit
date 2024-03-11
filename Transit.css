@@ -82,6 +82,7 @@ html {
 
 #card-container {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   gap: 32px;
 }
@@ -89,6 +90,7 @@ html {
 .bio-card {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   width: 300px;
   border: 1px solid pink
 }
@@ -97,8 +99,3 @@ html {
   display: flex;
   justify-content: center;
 }
-
- .biography {
-  display: flex;
-  align-items:  center;
- }

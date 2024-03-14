@@ -22,6 +22,7 @@ html {
 
 .subtitle {
   color: pink;
+  font-style: italic;
 }
 
 .pic-list {
@@ -94,9 +95,15 @@ html {
   width: 300px;
   border: 1px solid pink;
   overflow: hidden;
+  text-align: center;
 }
 
 .bio-box {
+  display: flex;
+  justify-content: center;
+}
+
+.bio-header{
   display: flex;
   justify-content: center;
 }

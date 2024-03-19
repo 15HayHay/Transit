@@ -59,6 +59,14 @@ html {
 
 }
 
+<<<<<<< Updated upstream
+=======
+.nav-style{
+background-color:black; 
+
+}
+
+>>>>>>> Stashed changes
 .media {
   display: flex;
   justify-content: center;

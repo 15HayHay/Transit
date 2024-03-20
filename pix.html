@@ -1,107 +1,89 @@
 <html>
-    <head>
-        <link  href="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.11.6/viewer.css" rel="stylesheet">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.11.6/viewer.min.js" type="module"></script>
-        <title>
-            Pictures
-        </title>
-        <link rel="stylesheet" href="Transit.css"/>
 
-<div class = "nav-bar">
-      <a href="index.html">
-            <button>Home</button>
-        </a>
-        <a href = "location.html">
-        <button> Location</button>
-        </a>
-        <a href="events.html">
-        <button>Events </button>
-        </a>
-        <a href="transit-bios.html">
-        <button> Meet The People of Transit </button>
-        </a>
-        </div>
+<head>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.11.6/viewer.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.11.6/viewer.min.js" type="module"></script>
+  <title>
+    Pictures
+  </title>
+  <link rel="stylesheet" href="Transit.css" />
+
+  <div class="nav-bar">
+    <a href="index.html">
+      <button>Home</button>
+    </a>
+    <a href="location.html">
+      <button> Location</button>
+    </a>
+    <a href="events.html">
+      <button>Events </button>
+    </a>
+    <a href="transit-bios.html">
+      <button> Meet The People of Transit </button>
+    </a>
+  </div>
 
 
 
 
-    </head>
-    <body>
+</head>
 
-        <h1>
-        <marquee>Check out these pics dawg</marquee>
-        </h1>
-        <table class="scrapbook" id="pics"> 
-            <tr> 
-                <td>
-                    <img src="Photos/Game.jpg" class="picbox"/>
-        
-                </td>
-                <td>
-                    <img src= "Photos/IMG_20220518_210353.jpg" class="picbox"/>
-                </td>
-                <td>
-                    <img src="Photos/398238628_650098213980791_8340854635159259295_n.jpg" class="picbox"/>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="Photos/PXL_20220501_195123068.MP.jpg" class="picbox"/>
-                </td>
-                <td>
-                    <img src="Photos/transit-main-room.jpg" class="picbox"/>
-                </td>
-                <td>
-                    <img src="Photos/IMG_20221122_070802.jpg" class="picbox"/>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="Photos/received_294710732843401.jpeg" class="picbox"/>
-                </td>
-                <td>
-                    <img src="Photos/296709297_3187648241492429_6749430322381407869_n.jpg" class="picbox"/>
-                <td>
-                    <img src="Photos/313199365_428562432801038_4938873468826510765_n.jpg" class="picbox"/>
-                </td>
-                <tr>
-                <td>
-                    <img src="Photos/Paint.jpg" class="picbox"/>
-                </td>
-                <td>
-                    <img src="Photos/Transit Peeps.jpg" class="picbox"/>
-                </td>
-                <td>
+<body>
 
-                    <img src="Photos/Christmas.jpg" class="picbox"/>
-                </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="Photos/Anna.jpg" class="picbox"/>
-                    </td>
-                    <td>
-                        <img src="Photos/PL.jpg" class="picbox"/>
-                    </td>
-                    <td>
-                        <img src="Photos/Eliza.jpg" class="picbox"/>
-                    </td>
-                </tr>
-        </table>
-    <script type="module">
-        const viewer=new Viewer(document.getElementById('pics'));
-    </script>
-    </body>
+  <h1>
+    <marquee>Check out these pics dawg</marquee>
+  </h1>
+  <div id="scrapbook">
+    <!-- Javascript is injecting images in this div when DOM loads -->
+  </div>
+  <script type="module">
+
+    // Create array of photo sources
+    const photos = [
+      "Photos/Game.jpg",
+      "Photos/IMG_20220518_210353.jpg",
+      "Photos/398238628_650098213980791_8340854635159259295_n.jpg",
+      "Photos/PXL_20220501_195123068.MP.jpg",
+      "Photos/transit-main-room.jpg",
+      "Photos/IMG_20221122_070802.jpg",
+      "Photos/received_294710732843401.jpeg",
+      "Photos/296709297_3187648241492429_6749430322381407869_n.jpg",
+      "Photos/313199365_428562432801038_4938873468826510765_n.jpg",
+      "Photos/Paint.jpg",
+      "Photos/Transit Peeps.jpg",
+      "Photos/Christmas.jpg",
+      "Photos/Anna.jpg",
+      "Photos/PL.jpg",
+      "Photos/Eliza.jpg",
+    ]
+
+    document.addEventListener('DOMContentLoaded', function () {
+      loadImages();
+
+      /* ---- This is for infinite scroll if you want that later, might be cool ----
+
+            window.onscroll = function () {
+              if (window.innerHeight + window.pageYOffset >= document.body.offsetHeight) {
+                loadImages();
+              }
+            };
+
+        ----------------------------------------------------------------------------
+      */
+    });
+
+    // This function loads all the images from the array, and adds the "picbox" class to them
+    function loadImages() {
+      for (let i = 0; i < photos.length; i++) {
+        const img = new Image(); // this creates an <img> using javascript
+        img.src = photos[i]; // add photo source here
+        img.className = "picbox"; // here's the class
+        document.getElementById('scrapbook').appendChild(img); // this looks for #scrapbook
+      }
+    }
+
+    const viewer = new Viewer(document.getElementById('pics'));
+  </script>
+</body>
+
 </html>
-
-
-
-
-
-
-
-
-
-
-
-

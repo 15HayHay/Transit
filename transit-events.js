@@ -10,13 +10,9 @@
 
 
 const transitEvents= [
-    {"start": "idk", "end": "idk" , "title" : "idk we doin something", "description" : "I told you idk" } ,
-    {"start": "11/22/2023", "title" : "No Transit" , "description" : "Happy Thanksgiving"} ,
-    {"start": "2/14/2024 7:30 PM", "end": "12/13/2023 9:30 PM", "title" : "Colossians: The Supremacy of Christ" , "description": ""},
-    {"start": "2/21/24" , "title" : "Game Night @ the Loft" , "description" : ""} ,
-    {"start": "12/27/23" , "title" : "No Transit" , "description" : "Merry Christmas!"} ,
-    {"start" : "1/3/24" , "title" : "No Transit" , "description" : "Happy New Year!"},
-    {"start" : "", "title" : "" , "description" : ""}
+    {"start": "3/20/2024", "title" : "Reveal the Transit site", "description" : "Show everyone what I've been up to." } ,
+    {"start": "3/20/2024", "title": "Technology Q&A" ,"description" :" Q & A about technology in the life of a Christian w/ Matt Ross"} ,
+    
 ]
 
 

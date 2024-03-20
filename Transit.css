@@ -1,5 +1,5 @@
 html {
-  background-color: rgb(13, 242, 250);
+  background-color: #008080;
 }
 
 .page-styles {
@@ -27,7 +27,7 @@ html {
 }
 
 .subtitle {
-  color: pink;
+  color:rgb(48, 4, 48);
   font-style: italic;
 }
 
@@ -100,10 +100,14 @@ html {
   flex-direction: column;
   flex-wrap: wrap;
   max-width: 300px;
-  border: 1px solid pink;
+  border: 5px solid pink;
+  border-radius: 1em;
+  padding: 1em 2em;
+  text-align: justify;
+}
+.bio-card > h3 {
   text-align: center;
 }
-
 .bio {
   width: 80%;
   height: auto;

@@ -9,7 +9,7 @@ html {
 .header-main {
   display: flex;
   justify-content: center;
-  font-size: larger;
+  font-size: 50px
 }
 
 #img-container {
@@ -87,6 +87,10 @@ html {
   font-style: bold;
 }
 
+.pix-header{
+  display:flex;
+  justify-content: center;
+}
 /* transit-bios.html */
 
 #card-container {

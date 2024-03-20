@@ -8,7 +8,7 @@ services:
       labels:
         - "traefik.enable=true"
         - "traefik.http.middlewares.mywebserver-redirect-web-secure.redirectscheme.scheme=https"
-        - "traefik.http.routers.transit-rtr.rule=Host(`soyberspace.inetd.cafe`) && PathPrefix(`/transit`)"
+        - "traefik.http.routers.transit-rtr.rule=Host(`transitnotachurch.com`,`www.transitnotachurch.com`)"
         - "traefik.http.routers.transit-rtr.entrypoints=websecure"
         - "traefik.http.routers.transit-rtr.tls.certresolver=le"
         - "traefik.http.routers.transit-rtr.service=transit-svc"

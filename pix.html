@@ -7,7 +7,9 @@
     Pictures
   </title>
   <link rel="stylesheet" href="Transit.css" />
+</head>
 
+<body>
   <div class="nav-bar">
     <a href="index.html">
       <button>Home</button>
@@ -23,21 +25,14 @@
     </a>
   </div>
 
-
-
-
-</head>
-
-<body>
-
   <h1>
     <marquee>Check out these pics dawg</marquee>
   </h1>
   <div id="scrapbook">
     <!-- Javascript is injecting images in this div when DOM loads -->
   </div>
-  <script type="module">
 
+  <script>
     // Create array of photo sources
     const photos = [
       "Photos/Game.jpg",
@@ -61,15 +56,14 @@
       loadImages();
 
       /* ---- This is for infinite scroll if you want that later, might be cool ----
-
             window.onscroll = function () {
               if (window.innerHeight + window.pageYOffset >= document.body.offsetHeight) {
                 loadImages();
               }
             };
+        ---------------------------------------------------------------------------- */
 
-        ----------------------------------------------------------------------------
-      */
+      const viewer = new Viewer(document.getElementById('scrapbook'));
     });
 
     // This function loads all the images from the array, and adds the "picbox" class to them
@@ -82,7 +76,6 @@
       }
     }
 
-    const viewer = new Viewer(document.getElementById('pics'));
   </script>
 </body>
 

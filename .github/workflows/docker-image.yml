@@ -47,4 +47,3 @@ jobs:
             username: ${{ secrets.DEPLOY_USERNAME }}
             key: ${{ secrets.DEPLOY_KEY }}
             port: 22
-            script: whoami

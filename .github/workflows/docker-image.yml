@@ -43,7 +43,7 @@ jobs:
         - name: remote docker-compose up via ssh
           uses: appleboy/ssh-action@v1.0.3
           with:
-            host: ${‎{ secrets.DEPLOY_HOST }‎}
+            host: ${‎{ secrets.DEPLOY_HOST }}
             username: ${‎{ secrets.DEPLOY_USERNAME }‎}
             key: ${‎{ secrets.DEPLOY_KEY }‎}
             port: 22

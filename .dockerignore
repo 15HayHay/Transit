@@ -1,4 +1,5 @@
 .vscode
+.github
 Dockerfile
 docker-compose.yml
 updatesite.sh

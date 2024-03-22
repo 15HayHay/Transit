@@ -32,27 +32,36 @@
     <!-- Javascript is injecting images in this div when DOM loads -->
   </div>
 
-  <script>
-    // Create array of photo sources
-    const photos = [
-      "Photos/Game.jpg",
-      "Photos/IMG_20220518_210353.jpg",
-      "Photos/398238628_650098213980791_8340854635159259295_n.jpg",
-      "Photos/PXL_20220501_195123068.MP.jpg",
-      "Photos/transit-main-room.jpg",
-      "Photos/IMG_20221122_070802.jpg",
-      "Photos/received_294710732843401.jpeg",
-      "Photos/296709297_3187648241492429_6749430322381407869_n.jpg",
-      "Photos/313199365_428562432801038_4938873468826510765_n.jpg",
-      "Photos/Paint.jpg",
-      "Photos/Transit Peeps.jpg",
-      "Photos/Christmas.jpg",
-      "Photos/Anna.jpg",
-      "Photos/PL.jpg",
-      "Photos/Eliza.jpg",
-    ]
+  
+    <table>
+      <row>
+      <img src="Photos/Game.jpg"/>
+      <img src="Photos/IMG_20220518_210353.jpg"/>
+      <img src="Photos/398238628_650098213980791_8340854635159259295_n.jpg"/>
+        </row>
+     <row>
+      <img src="Photos/PXL_20220501_195123068.MP.jpg"/>
+      <img src= "Photos/transit-main-room.jpg"/>
+     <img src= "Photos/IMG_20221122_070802.jpg"/>
+     </row>
+     <row>
+     <img src="Photos/received_294710732843401.jpeg"/>
+     <img src= "Photos/296709297_3187648241492429_6749430322381407869_n.jpg"/>
+      <img src="Photos/313199365_428562432801038_4938873468826510765_n.jpg"/>
+      </row>
+      <row>
+      <img src="Photos/Paint.jpg"/>
+      <img src="Photos/Transit Peeps.jpg"/>
+      <img src="Photos/Christmas.jpg"/>
+      </row>
+      <row>
+     <img src= "Photos/Anna.jpg"/>
+     <img src= "Photos/PL.jpg"/>
+      <img src="Photos/Eliza.jpg"/>
+      </row>
+    
 
-    document.addEventListener('DOMContentLoaded', function () {
+   /* document.addEventListener('DOMContentLoaded', function () {
       loadImages();
 
       /* ---- This is for infinite scroll if you want that later, might be cool ----

@@ -21,7 +21,7 @@ const transitEvents= [
     {"start": "5/8/2024","title":"No Transit","description": "Off for Basics Conference"},
     {"start": "5/15/2024","title":"Group potluck", "description" : "Potluck at The Loft"},
     {"start":"5/22/2024","title":"Regular meeting at The Loft","description":""},
-    {"start":"5/29/2024","title":"No Transit","description":"Happy Memorial Day"},
+    {"start":"5/29/2024","title":"No Transit","description":"Happy Memorial Day!"},
 ]
 
 

@@ -16,7 +16,7 @@ const transitEvents= [
     {"start": "4/3/2024","title": "No Transit", "description":"Happy Easter"},
     {"start": "4/6/2024","title":"Bainbridge Swing Dance @ Family Life Center","description": "8:00-11:00 PM"},
     {"start": "4/10/2024", "title": "Regular meeting at The Loft", "description": ""},
-    {"start": "4/13/2024", "title":"Roller Skating @ Chargin Valley Roller Rink","description":" "},
+    {"start": "4/13/2024", "title":"Roller Skating @ Chargin Valley Roller Rink","description":"7:00 PM"},
     {"start":"4/17/2024" ,"title": "Local church Q&A" , "description": ""},
     {"start" :"4/24/2024", "title":"Regular meeting at The Loft", "description":""},
     {"start": "5/1/2024", "title":"Regular meeting at The Loft","description":""},

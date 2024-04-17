@@ -20,6 +20,7 @@ const transitEvents= [
     {"start":"4/17/2024" ,"title": "Local church Q&A" , "description": ""},
     {"start" :"4/24/2024", "title":"Regular meeting at The Loft", "description":""},
     {"start": "5/1/2024", "title":"Regular meeting at The Loft","description":""},
+    {"start":"5/4/2024", "title":"Bainbridge Swing Dance @ Family Life Center","description":"8:00-11:00 PM"},
     {"start": "5/8/2024","title":"No Transit","description": "Off for Basics Conference"},
     {"start": "5/15/2024","title":"Group potluck", "description" : "Potluck at The Loft"},
     {"start":"5/22/2024","title":"Regular meeting at The Loft","description":""},

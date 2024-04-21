@@ -11,6 +11,13 @@
   gtag('config', 'G-Y7FB91E37L');
 </script>
 
+<link href="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.11.6/viewer.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.11.6/viewer.min.js" type="module"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const viewer = new Viewer(document.getElementById("pictures"))
+    });
+</script>
     <div class="nav-bar">    
     <a href="index.html">
             <button>Home</button>
@@ -36,7 +43,7 @@
     <br> Pull all the  way to the back of the parking lot.
 
 </p>
-<div>
+<div id="pictures">
 <img src="Photos/Signs.jpg" class="location" height="250"/> 
 <img src="Photos/31200.jpg" class="location" height="250"/>
 <img src="Photos/Driveway.jpg" class="location" height="250"/>

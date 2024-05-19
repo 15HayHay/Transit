@@ -11,21 +11,28 @@
 
 const transitEvents= [
     {"start": "3/20/2024", "title" : "Reveal the Transit site", "description" : "Show everyone what I've been up to." } ,
-    {"start": "3/20/2024", "title": "Technology Q&A" ,"description" :" Q & A about technology in the life of a Christian w/ Matt Ross"} ,
-    {"start": "3/27/2024","title": "Colossians The Supremacy of Christ", "description":"Regular Transit meeting at The Loft"},
+    {"start": "3/20/2024", "title": "Technology Q&A" ,"description" :"Q & A about technology in the life of a Christian w/ Matt Ross"},
+    {"start": "3/27/2024","title": "Colossians The Supremacy of Christ", "description":"Regular Transit meeting at The Loft <br> 7:30-9:30"},
     {"start": "4/3/2024","title": "No Transit", "description":"Happy Easter"},
     {"start": "4/6/2024","title":"Bainbridge Swing Dance @ Family Life Center","description": "8:00-11:00 PM"},
-    {"start": "4/10/2024", "title": "Regular meeting at The Loft", "description": ""},
+    {"start": "4/10/2024", "title": "Regular meeting at The Loft", "description": "7:30-9:30"},
     {"start": "4/13/2024", "title":"Roller Skating @ Chagrin Valley Roller Rink","description":"7:00 PM"},
-    {"start":"4/17/2024" ,"title": "Local church Q&A" , "description": ""},
-    {"start" :"4/24/2024", "title":"Regular meeting at The Loft", "description":""},
-    {"start": "5/1/2024", "title":"Regular meeting at The Loft","description":""},
+    {"start":"4/17/2024" ,"title": "Local church Q&A" , "description": "The Loft <br> 7:30-9:30"},
+    {"start" :"4/24/2024", "title":"Regular meeting at The Loft", "description":"7:30-9:30"},
+    {"start": "5/1/2024", "title":"Regular meeting at The Loft","description":"7:30-9:30"},
     {"start":"5/4/2024", "title":"Bainbridge Swing Dance @ Family Life Center","description":"8:00-11:00 PM"},
     {"start": "5/8/2024","title":"No Transit","description": "Off for Basics Conference"},
     {"start": "5/15/2024","title":"Group potluck", "description" : "Potluck at The Loft"},
-    {"start":"5/22/2024","title":"Regular meeting at The Loft","description":""},
+    {"start":"5/22/2024","title":"Regular meeting at The Loft","description":"7:30-9:30"},
     {"start":"5/29/2024","title":"No Transit","description":"Happy Memorial Day!"},
-
+    {"start": "6/5/2024", "title":"Regular meeting at The Loft","description":"7:30-9:30"},
+    {"start":"6/12/2024","title":"Transit night at Solon Park","description":"6679 SOM Center Rd, Solon, OH 44139 <br> 6:00-9:00"},
+    {"start":"6/19/2024", "title":"Reegular meeting at the Loft","description":"7:30-9:30"},
+    {"start":"6/26/2024", "title":"Regular meeting at the Loft","description":"7:30-9:30"},
+    {"start":"7/10/2024", "title":"Regular meeting at the Loft","description":"7:30-9:30"},
+    {"start":"7/24/2024", "title":"Go-karts, Mini-golf & ice cream","description":"6:00-9:00"},
+    {"start":"8/14/2024","title":"Guardians game","description":""},
+    
 ]
 
 

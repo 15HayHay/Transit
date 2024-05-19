@@ -32,7 +32,7 @@ const transitEvents= [
     {"start":"7/10/2024", "title":"Regular meeting at the Loft","description":"7:30-9:30"},
     {"start":"7/24/2024", "title":"Go-karts, Mini-golf & ice cream","description":"6:00-9:00"},
     {"start":"8/14/2024","title":"Guardians game","description":""},
-    
+    {"start":"8/28/2024","title":"Regular meeting at the Loft", "description":"7:30-9:30"},
 ]
 
 

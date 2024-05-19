@@ -26,7 +26,7 @@ const transitEvents= [
     {"start":"5/22/2024","title":"Regular meeting at The Loft","description":"7:30-9:30"},
     {"start":"5/29/2024","title":"No Transit","description":"Happy Memorial Day!"},
     {"start": "6/5/2024", "title":"Regular meeting at The Loft","description":"7:30-9:30"},
-    {"start":"6/12/2024","title":"Transit night at Solon Park","description":"6679 SOM Center Rd, Solon, OH 44139 <br> 6:00-9:00"},
+    {"start":"6/12/2024","title":"Transit night at Solon Park","description":"6679 SOM Center Rd, Solon, OH 44139 6:00-9:00"},
     {"start":"6/19/2024", "title":"Reegular meeting at the Loft","description":"7:30-9:30"},
     {"start":"6/26/2024", "title":"Regular meeting at the Loft","description":"7:30-9:30"},
     {"start":"7/10/2024", "title":"Regular meeting at the Loft","description":"7:30-9:30"},

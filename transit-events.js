@@ -107,7 +107,7 @@ const transitEvents = [
   },
   {
     start: "7/24/2024",
-    title: "Go-karts, Mini-golf & ice cream",
+    title: "Go-karts, Mini-golf & ice cream @ Fun n Stuff",
     description: "6:00-9:00",
   },
   { start: "8/14/2024", title: "Guardians game", description: "" },

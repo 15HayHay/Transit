@@ -107,8 +107,10 @@ const transitEvents = [
   },
   {
     start: "7/24/2024",
-    title: "Go-karts, Mini-golf & ice cream @ Fun n Stuff",
-    description: "6:00-9:00",
+    title:
+      "Go-karts, Mini-golf & ice cream @ Fun n Stuff 661 Highland Rd, Macedonia, OH 44056",
+    description:
+      '6:00-9:00 <a target="_blank" href="https://parksidechurch.tpsdb.com/OnlineReg/2997"> Register here</a>',
   },
   { start: "8/14/2024", title: "Guardians game", description: "" },
   {
@@ -147,7 +149,7 @@ function makeEventItem(eventInfo) {
   addTextToElement(eventDate, dateString);
   eventItem.appendChild(eventDate);
   let eventDesc = document.createElement("p");
-  addTextToElement(eventDesc, eventInfo.description);
+  eventDesc.innerHTML = eventInfo.description;
   eventItem.appendChild(eventDesc);
   return eventItem;
 }

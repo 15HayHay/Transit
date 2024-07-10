@@ -112,7 +112,13 @@ const transitEvents = [
     description:
       '6:00-9:00 <a target="_blank" href="https://parksidechurch.tpsdb.com/OnlineReg/2997"> Register here</a>',
   },
-  { start: "8/14/2024", title: "Guardians game", description: "" },
+
+  {
+    start: "8/14/2024",
+    title: "Guardians game",
+    description:
+      '<a target="_blank" href="https://parksidechurch.tpsdb.com/OnlineReg/2995"> Register here</a>',
+  },
   {
     start: "8/28/2024",
     title: "Regular meeting at the Loft",

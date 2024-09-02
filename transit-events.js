@@ -124,6 +124,37 @@ const transitEvents = [
     title: "Regular meeting at the Loft",
     description: "7:30-9:30",
   },
+  {
+    start: "9/4/2024",
+    title: "Regular meeting at the Loft",
+    description: "Gospel Relationships: Church Community 7:30-9:30",
+  },
+
+  {
+    start: "10/16/2024",
+    title: "Regular meeting at the Loft",
+    description: "Gospel Relationships: Biblical Friendship 7:30-9:30",
+  },
+  {
+    start: "11/6/2024",
+    title: "Regular meeting at the Loft",
+    description: "Gospel Relationships: Singleness 7:30-9:30",
+  },
+  {
+    start: "11/20/2024",
+    title: "Friendsgiving dinner at the Loft",
+    description: "",
+  },
+  {
+    start: "12/4/2024",
+    title: "Gospel Relationships: Dating and Marriage",
+    description: "7:30-9:30",
+  },
+  {
+    start: "12/18/2024",
+    title: "Christmas party at the Loft",
+    description: "",
+  },
 ];
 
 function addEventsToTable() {

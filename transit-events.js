@@ -155,6 +155,26 @@ const transitEvents = [
     title: "Christmas party at the Loft",
     description: "",
   },
+  {
+    start: "1/15/2025",
+    title: "Spiritual Discipines Q&A",
+    description:"",
+  },
+{
+  start: "2/5/2025",
+  title: "Game night at the Loft",
+  description:"",
+}
+{
+  start: "2/26/2025",
+  title: "God is: A study on the attributes of God",
+  description: "",
+}
+ {
+   start: "3/12/2025",
+  title: "God is: A study on the attributes of God",
+  description: "",
+ }
 ];
 
 function addEventsToTable() {

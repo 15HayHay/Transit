@@ -175,6 +175,21 @@ const transitEvents = [
     title: "God is: A study on the attributes of God",
     description: "",
   },
+  {
+    start: "4/16/2025",
+    title: "God is: A study on the attributes of God",
+    description: "",
+  },
+  {
+    start: "4/30/2025",
+    title: "Potluck at The Loft",
+    description: "",
+  },
+  {
+    start: "5/14/2025",
+    title: "God is: A study on the attributes of God",
+    description: "",
+  },
 ];
 
 function addEventsToTable() {

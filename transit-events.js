@@ -190,6 +190,31 @@ const transitEvents = [
     title: "God is: A study on the attributes of God",
     description: "",
   },
+  {
+    start: "6/4/2025",
+    title: "Regular meeting at The Loft",
+    description: "",
+  },
+  {
+    start: "6/18/2025",
+    title: "Night at the park",
+    description: "6679 SOM Center Road, Solon, OH 44138",
+  },
+  {
+    start: "7/2/2025",
+    title: "Regular meeting at The Loft",
+    description: "",
+  },
+  {
+    start: "7/18/2025",
+    title: "Guardians game",
+    description: "",
+  },
+  {
+    start: "8/6/2025",
+    title: "Regular meeting at The Loft",
+    description: "",
+  },
 ];
 
 function addEventsToTable() {

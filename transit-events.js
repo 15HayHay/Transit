@@ -208,12 +208,19 @@ const transitEvents = [
   {
     start: "7/18/2025",
     title: "Guardians game",
-    description: "",
+    description:
+      '<a target="_blank" href=https://my.parksidechurch.com/OnlineReg/3116> Register here by July 11th</a>',
   },
   {
     start: "8/6/2025",
     title: "Regular meeting at The Loft",
     description: "",
+  },
+  {
+    start: "8/22/2025",
+    title: "Fun N Stuff",
+    description:
+      '<a target=_blank" href=https://parksidechurch.tpsdb.com/OnlineReg/3121> Register here</a>',
   },
 ];
 

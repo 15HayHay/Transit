@@ -222,6 +222,11 @@ const transitEvents = [
     description:
       '<a target=_blank" href=https://parksidechurch.tpsdb.com/OnlineReg/3121> Register here</a>',
   },
+  {
+    start: "9/3/2025",
+    title: "Regular meeting at The Loft",
+    description: "",
+  },
 ];
 
 function addEventsToTable() {

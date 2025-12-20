@@ -7,6 +7,10 @@
     "default:automergePr"
   ],
   "timezone": "America/New_York",
+  
+  "assignees": [
+    "hmsmart",
+  ],
 
   "schedule": [
     "after 6am and before 10pm"
